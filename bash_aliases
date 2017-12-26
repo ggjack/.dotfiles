@@ -1,1 +1,5 @@
 alias ll='ls -la'
+alias l='ls -G'
+alias ..='cd ..'
+alias c='clear'
+alias now='date +"%T"'

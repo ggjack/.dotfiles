@@ -1,0 +1,13 @@
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+declare -a arr=("bashrc" "bash_aliases" "vimrc")
+
+for i in "${arr[@]}"
+do
+	newLink=$HOME/.${i}
+	if [ $i == "bashrc"] && [-f ~/.bashrc ] && ! [-L ~/.bashrc]; then
+		mv ~/.bashrc ~/.bash_private
+	fi
+
+	ln -sf ${SCRIPTPATH}/$i $newLink
+done
