@@ -1,5 +1,5 @@
 syntax on 
-colo lapis256
+colo tokyo-metro 
 set ruler
 set tabstop=4
 set softtabstop=4

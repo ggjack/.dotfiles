@@ -22,5 +22,5 @@ if ! [ -f ~/.vim/colors/lapis256.vim ]; then
 		mkdir ~/.vim/colors
 	fi
 	cd ~/.vim/colors
-	wget https://raw.githubusercontent.com/andrwb/vim-lapis256/master/colors/lapis256.vim
+	wget https://raw.githubusercontent.com/koirand/tokyo-metro.vim/master/colors/tokyo-metro.vim 
 fi
